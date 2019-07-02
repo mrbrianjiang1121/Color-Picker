@@ -14,6 +14,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     @IBOutlet weak var ColorPickerView: UIPickerView!
     
     let colorsList = ["Red", "Orange", "Yellow", "Green", "Blue", "Purple"]
+    var colors = [UIColor.red, UIColor.orange, UIColor.yellow, UIColor.green, UIColor.blue, UIColor.purple]
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -29,6 +30,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         ColorLabel.text = colorsList[row]
+        self.view.backgroundColor = colors[row]
     }
 
     override func viewDidLoad() {
