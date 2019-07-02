@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Color_Picker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5C-no-dZu">
+                                <rect key="frame" x="186" y="585" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hdb-S7-Iqz">
+                                <rect key="frame" x="0.0" y="646" width="414" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="UPg-fP-fin"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="GvI-gK-5k4"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Hdb-S7-Iqz" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="GLs-RL-kd4"/>
+                            <constraint firstItem="Hdb-S7-Iqz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Yr4-tZ-Ygu"/>
+                            <constraint firstItem="Hdb-S7-Iqz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="auf-bb-7pM"/>
+                            <constraint firstItem="e5C-no-dZu" firstAttribute="centerX" secondItem="Hdb-S7-Iqz" secondAttribute="centerX" id="kzC-ft-pxr"/>
+                            <constraint firstItem="Hdb-S7-Iqz" firstAttribute="top" secondItem="e5C-no-dZu" secondAttribute="bottom" constant="40" id="lF9-S7-Nph"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="ColorLabel" destination="e5C-no-dZu" id="3BJ-gE-9JV"/>
+                        <outlet property="ColorPickerView" destination="Hdb-S7-Iqz" id="5Rd-fr-Ehl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
