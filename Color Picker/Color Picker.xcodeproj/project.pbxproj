@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D3457C2022CBEE510099413E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3457C1F22CBEE510099413E /* AppDelegate.swift */; };
-		D3457C2222CBEE510099413E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3457C2122CBEE510099413E /* ViewController.swift */; };
+		D3457C2222CBEE510099413E /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3457C2122CBEE510099413E /* ColorPickerViewController.swift */; };
 		D3457C2522CBEE510099413E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3457C2322CBEE510099413E /* Main.storyboard */; };
 		D3457C2722CBEE590099413E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3457C2622CBEE590099413E /* Assets.xcassets */; };
 		D3457C2A22CBEE590099413E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3457C2822CBEE590099413E /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		D3457C1C22CBEE510099413E /* Color Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3457C1F22CBEE510099413E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3457C2122CBEE510099413E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3457C2122CBEE510099413E /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 		D3457C2422CBEE510099413E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3457C2622CBEE590099413E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3457C2922CBEE590099413E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				D3457C1F22CBEE510099413E /* AppDelegate.swift */,
-				D3457C2122CBEE510099413E /* ViewController.swift */,
+				D3457C2122CBEE510099413E /* ColorPickerViewController.swift */,
 				D3457C2322CBEE510099413E /* Main.storyboard */,
 				D3457C2622CBEE590099413E /* Assets.xcassets */,
 				D3457C2822CBEE590099413E /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3457C2222CBEE510099413E /* ViewController.swift in Sources */,
+				D3457C2222CBEE510099413E /* ColorPickerViewController.swift in Sources */,
 				D3457C2022CBEE510099413E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
